@@ -3,6 +3,7 @@ package InheritanceFeature;
 public class Father {
 	String name;
 	int id;
+	String sex;
 	
 	Father(){}
 	
