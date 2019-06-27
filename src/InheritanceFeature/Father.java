@@ -4,7 +4,7 @@ public class Father {
 	String name;
 	int id;
 
-	String michael;
+	String michael1;
 	
 	Father(){}
 	
