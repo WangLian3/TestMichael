@@ -32,7 +32,7 @@ public class Online {
 	
 	public static void main(String[] args) {
 		Online o = new Online();
-		Online o2 = new Online();
+		Online o1 = new Online();
 		o.test();
 	}
 }
