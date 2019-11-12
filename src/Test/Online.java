@@ -17,14 +17,14 @@ public class Online {
         c.set(2016,5,6);
         Date after=c.getTime();
 
-        //beforeÔçÓÚnow£¬·µ»Ø¸ºÊı£¬¿ÉÓÃÓÚÅĞ¶Ï»î¶¯¿ªÊ¼Ê±¼äÊÇ·ñµ½ÁË
+        //beforeæ—©äºnowï¼Œè¿”å›è´Ÿæ•°ï¼Œå¯ç”¨äºåˆ¤æ–­æ´»åŠ¨å¼€å§‹æ—¶é—´æ˜¯å¦åˆ°äº†
         int compareToBefore=before.compareTo(now);
         System.out.println("compareToBefore = "+compareToBefore);
 
         int compareToIntNow=now.compareTo(now);
         System.out.println("compareToIntNow = "+compareToIntNow);
 
-        //afterÍíÓÚnow£¬·µ»ØÕıÊı£¬¿ÉÓÃÓÚÅĞ¶Ï»î¶¯½áÊøÊ±¼äÊÇ·ñµ½ÁË
+        //afteræ™šäºnowï¼Œè¿”å›æ­£æ•°ï¼Œå¯ç”¨äºåˆ¤æ–­æ´»åŠ¨ç»“æŸæ—¶é—´æ˜¯å¦åˆ°äº†
         int compareToIntAfter=after.compareTo(now);
         System.out.println("compareToIntAfter = "+compareToIntAfter);
     }
@@ -32,6 +32,7 @@ public class Online {
 	
 	public static void main(String[] args) {
 		Online o = new Online();
+		Online o2 = new Online();
 		o.test();
 	}
 }
